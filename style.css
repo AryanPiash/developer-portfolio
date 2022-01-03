@@ -1,3 +1,87 @@
+
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.flexible-container{
+    display: flex;
+    padding: 0 5%;
+}
+.welcome{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    max-width: 50%;
+}
+.half-width img{
+    max-width: 100%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color: #111;
+}
+.orange-color{
+    color: orange;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 45px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 5px;
+}
+/* Dream Big */
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-right{
+    padding-left: 5%;
+}
+
+/* Experience Area */
+.experience-area{
+}
+.experience-inems{
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+.exp-item{
+    max-width: 40%;
+    margin-left: 5%;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    box-shadow: 10px 10px 40px gray;
+   
+}
+.exp-item h3{
+    color: orange;
+    font-weight: 500;
+}
+.exp-left{
+    border-left: 9px solid;
+    border-image: linear-gradient(#f3f58c, #f382ea);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.exp-right{
+    border-left: 9px solid;
+    border-image: linear-gradient(#6981ee, #22f7e5);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    
 }
